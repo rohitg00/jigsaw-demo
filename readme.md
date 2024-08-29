@@ -1,12 +1,23 @@
-# Text Summarizer with JigsawStack and Flask
+# Generate smarter text summaries with JigsawStack AI
 
 This project implements a text summarization web application using [JigsawStack](https://jigsawstack.com/)'s AI capabilities and Flask web framework.
 
 ![Text Summarizer UI](https://snipboard.io/OBbThU.jpg)
 
+## Features
+- Summarize in any language
+
+- Contextual understanding to maintain key points
+
+- Maintaining sentiments of the original text
+
+- Point form or paragraph format
+
+- Specialized fine tuned LLM engine for summarizing texts
+
 ## Prerequisites
 
-- [JigsawStack AI Scrape API key](https://docs.jigsawstack.com/api-reference/ai/scrape)
+- [JigsawStack AI Scrape API key](hhttps://docs.jigsawstack.com/api-reference/ai/summary)
 
 
 ## Setup
@@ -32,7 +43,7 @@ This project implements a text summarization web application using [JigsawStack]
    python test_summary.py
    ```
 
-2. Access the application at `http://127.0.0.1:5000` or `localhost:5000` in your web browser.
+2. Access the application at `http://127.0.0.1:5000` or `http://localhost:5000` in your web browser.
 
 ## Using the Text Summarizer
 
