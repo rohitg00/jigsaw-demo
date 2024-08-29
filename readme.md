@@ -17,7 +17,7 @@ This project implements a text summarization web application using [JigsawStack]
 
 ## Prerequisites
 
-- [JigsawStack AI Scrape API key](hhttps://docs.jigsawstack.com/api-reference/ai/summary)
+- [JigsawStack AI Summarizer API key](hhttps://docs.jigsawstack.com/api-reference/ai/summary)
 
 
 ## Setup
