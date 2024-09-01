@@ -49,7 +49,7 @@ This project implements a text summarization for web application using [JigsawSt
 
 1. Pull the Docker image:
    ```
-   docker pull rohitghumare/ai-web-summarizer:latest
+   docker pull rohitghumare64/ai-web-summarizer:latest
    ```
 
 2. Run the Docker container:
