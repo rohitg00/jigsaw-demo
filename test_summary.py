@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from jigsawstack import JigsawStack, JigsawStackError
 import os
-import subprocess
 
 app = Flask(__name__)
 
@@ -43,5 +42,6 @@ def index():
     return render_template('index.html', summary=summary, error_message=error_message)
 
 if __name__ == '__main__':
-    app.run(debug=True) #for local testing
-    # app.run(host='0.0.0.0', port=5000) #for docker
+    # app.run(debug=True) #for local testing
+    # # app.run(host='0.0.0.0', port=5000) #for docker
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
